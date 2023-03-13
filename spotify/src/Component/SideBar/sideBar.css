@@ -1,0 +1,87 @@
+.sideBar{
+    margin: -5px 0px 0px 10px;
+    width: 230px;
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.openBtn{
+    display: flex;
+    justify-content: end;
+    align-self: end;
+    overflow: hidden;
+}
+.openBtn i{
+    color: rgb(66, 64, 64);
+    font-size: 25px;
+    margin-left: 15px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 2200;
+    height: 25px;
+    overflow: hidden;
+}
+.logo i{
+    font-size: 30px;
+    margin-right: 8px;
+    color:  rgb(249, 184, 6);
+}
+.logo .bee{
+    color:  rgb(249, 184, 6);
+}
+hr{
+    margin: 20px 0px 15px 0px;
+    font-weight: 600;
+}
+#sideFooter{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 200px;
+    overflow: hidden;
+}
+#sideFooter p{
+    margin: 0px 50px 0px 30px;
+}
+#sideFooter img{
+    width: 40px;
+    height: 40px;
+    border-radius: 2em;
+    margin-right: -25px;
+}
+#sideFooter i{
+    margin-top: 5px;
+}
+#sideFooter:hover{
+    color: rgb(148, 81, 81);
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+#sideFooter div{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+@media screen and (max-width: 550px) {
+    .sideBar{
+        width: 68px;
+        min-width: 68px;
+        margin-top: 30px;
+        height: 100%;
+    }
+    .sideBar .logo{
+        font-size: 5px;
+        width: 30px;
+        min-width: 30px;
+    }
+    .openBtn{
+        display: none;
+    }
+    #sideFooter #sideName{
+       display: none;
+    }
+}

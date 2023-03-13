@@ -1,0 +1,211 @@
+.audioContainer{
+    position: relative;
+    /* width: 100%; */
+}
+.audio{
+    background-color: white;
+    width: 100%;
+    height: 7.5em;
+    border-radius: 1em;
+}
+.audio .audioTop{
+    display: flex;
+    width: 100%;
+    padding-top: 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+.audio .audioTop #audioTop{
+    display: flex;
+    width: 125px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.audio .audioTop #audioTop i{
+    background-color: #f1f1fb;
+    border-radius: 0.3em;
+    width: 25px;
+    height: 25px;
+    margin: 0px 2px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    color: grey;
+}
+.audio .audioTop #audioTop i:nth-of-type(1){
+    margin-left: 25px;
+}
+.audio .audioTop .audioplay{
+    display: flex;
+    width: 75%;
+    align-items: center;
+    justify-content: space-between;
+}
+.audio .audioTop .audioplay #audioplay{
+    display: flex;
+    width: 300px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.audio .audioTop .audioplay #audioplay i{
+    font-size: 18px;
+    font-weight: 500;
+}
+.audio .audioTop .audioplay 
+#audioplay .played i{
+    font-size: 30px;
+}
+.audio .audioTop .audioplay .volume{
+    display: flex;
+    font-size: 12px;
+    margin-right: 15px;
+    width: 32%;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+.audio .audioTop .audioplay .volume i{
+    font-size: 14px;
+}
+.audio .audioTop .audioplay .volume input{
+    background-color: rgb(245, 237, 237);
+    border: none;
+    outline: none;
+    height: 0.3rem;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: end;
+}
+.audio .audioTop .audioplay .volume input::before{
+    content: "";
+    background-color: rgb(3, 3, 3);
+    height: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+ .audio .audioTop .audioplay .volume input::-webkit-slider-thumb{
+    width: 7px;
+    height: 7px;
+    color: #111111;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+} 
+.audio .audioTop .audioplay .volume input::-moz-range-thumb{
+    width: 7px;
+    height: 7px;
+    color: #111111;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.playRange{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+}
+.playRange input{
+    margin: 0px 10px;
+}
+
+.playRange input{
+    background-color: rgb(245, 237, 237);
+    border: none;
+    outline: none;
+    height: 0.3rem;
+    width: 60%;
+    opacity: 0.7;
+    /* appearance: none; */
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: end;
+}
+.playRange input:hover{
+    opacity: 1;
+}
+.playRange input::before{
+    content: "";
+    background-color: rgb(3, 3, 3);
+    height: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.playRange input::-webkit-slider-thumb{
+    width: 10px;
+    height: 10px;
+    color: #111111;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.playRange input::-moz-range-thumb{
+    width: 10px;
+    height: 10px;
+    color: #111111;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+@media screen and (max-width: 550px) {
+    .audio .audioTop #audioTop i{
+        border-radius: 0.4em;
+        width: 1.5em;
+        height: 1.5em;
+        font-size: 10px;
+    }
+    .audio .audioTop #audioTop i:nth-of-type(1){
+        margin-left: -5px;
+    }
+    .audio .audioTop #audioTop i:nth-of-type(2),     
+    .audio .audioTop #audioTop i:nth-of-type(3){
+        margin-left: -10px;
+    }
+    .audio .audioTop .audioplay #audioplay i{
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .audio .audioTop .audioplay 
+    #audioplay i:nth-of-type(3){
+        font-size: 20px;
+    }
+    .audio .audioTop .audioplay .volume i{
+        font-size: 10px;
+    }
+    .audio .audioTop .audioplay .volume input{
+        height: 3px;
+    }
+    .audio .audioTop .audioplay .volume input::-webkit-slider-thumb{
+        width: 6px;
+        height: 6px;
+    }
+    .audio .audioTop .audioplay .volume input::-moz-range-thumb{
+        width: 6px;
+        height: 6px;
+    }
+    .playRange input{
+        margin: 0px 10px;
+    }
+    
+    .playRange input{
+        height: 5px;
+        width: 55%;
+    }
+    .playRange input::-webkit-slider-thumb{
+        width: 8.5px;
+        height: 8.5px;
+    }
+    .playRange input::-moz-range-thumb{
+        width: 8.5px;
+        height: 8.5px;
+    }
+    .playRange p{
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,162 @@
+.trend{
+    margin-top: -18px;
+}
+.trend i{
+    color: rgb(197, 96, 34);
+    font-size: 20px;
+}
+.centerBody{
+    width: 670px;
+    margin-left: 40px;
+    margin-right: 10px;
+}
+.trendLink{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -32px;
+}
+.trendLink a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+.trendLink a i{
+    color: black;
+    margin-top: 6px;
+}
+.carousel{
+    position: relative;
+    height: 200px;
+    margin-top: -10px;
+    border-radius: 1.5em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+}
+.carousel img{
+    position: relative;
+    height: 200px;
+    width: 40em;
+    border-radius: 1em;
+}
+.carousel .text{
+    position: absolute;
+    height: 150px;
+    top: 0;
+    margin: 20px 30px 130px;
+}
+.carousel p:nth-last-of-type(1){
+    padding-top: 10px;
+    color: grey;
+    margin-top: -10px;
+}
+.carousel h2{
+    font-size: 25px;
+    width: 140px;
+    margin: -10px 0px;
+}
+.btnCarousel{
+    margin-top: 15px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btnCarousel .btnListener{
+    width: 10em;
+    margin: 2em 0em 0em 18rem;
+}
+.btnCarousel .btnListener .span{
+    margin-left: 4em;
+    color: #f1f1fb;
+}
+.btnCarousel .btnListener .month{
+    color: #f1f1fb;
+}
+.carousel .btnCarousel p{
+    color: black;
+}
+.carousel p span{
+    display: block;
+    color: black;
+}
+@media screen and (max-width: 550px) {
+    .trend i{
+        color: rgb(197, 96, 34);
+        font-size: 10px;
+    }
+    .centerBody{
+        min-width: 100%;
+        width: 100%;
+        margin-left: 15px;
+        background-color: #f1f1fb;
+    }
+    .trendLink{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: -30px;
+        width: 67%;
+        min-width: 67%;
+    }
+    .trendLink a{
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        color: black;
+    }
+    .trendLink a i{
+        color: black;
+        margin-top: 6px;
+    }
+    .carousel{
+        height: 140px;
+        min-width: 70%;
+        width: 70%;
+        position: relative;
+    }
+    .carousel img{
+        height: 110px;
+        min-width: 90%;
+        width: 90%;
+    }
+    .carousel .text{
+        position: absolute;
+        font-size: 0.6em;
+        margin: 0px 20px 0px;
+    }
+    .carousel p:nth-last-of-type(1){
+        padding-top: 20px;
+        color: grey;
+    }
+    .carousel h2{
+        font-size: 1.5em;
+        width: 100px;
+        margin: -5px 0px 0px;
+    }
+    .btnCarousel{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 4px;
+        position: absolute;
+    }
+    .carousel .btnCarousel p{
+        color: black;
+        font-size: 0.5em;
+    }
+    .carousel .btnCarousel .btnListener{
+        margin: 0px 0px 0px 45px;
+    }
+    .carousel p span{
+        display: block;
+        color: black;
+        font-size: 1em;
+    }
+    .centerPlaylist{
+        margin-top: -40px;
+        font-size: 0.7em;
+    }
+}

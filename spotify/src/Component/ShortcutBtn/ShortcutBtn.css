@@ -1,0 +1,80 @@
+.shortBtn{
+    display: flex;
+    margin: 7px 0px;
+}
+.shortBtn .shortBtn2{
+    margin-left: 30px;
+}
+#shortBtn{
+    margin: 20px 0px 0px 30px;
+}
+#shortBtn h2{
+    margin-left: -10px;
+    margin-bottom: -5px;
+}
+.shortBtn  a button{
+  border-radius: 2em;
+  background-color: white;
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+  border: none;
+}
+#shortBtn  a {
+    border-radius: 2em;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+.btn1{
+    width: 110px;
+}
+.btn3{
+    width: 110px; 
+}
+.btn4{
+    width: 110px; 
+}
+.btn5{
+    width: 130px; 
+}
+.btn6{
+    width: 85px; 
+}
+.btn1 i{
+    color: rgb(67, 67, 231);
+}
+.btn2{
+    width: 85px; 
+}
+.btn2 i{
+    color: rgb(234, 198, 107);
+}
+.btn3 i{
+    color: red;
+}
+.btn6 i{
+    color: goldenrod;
+}
+.shortcutPlaylist ul li{
+    list-style: none;
+    width: max-content;
+    height: 50px;
+    background-color: white;
+    border-radius: 2em;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+    padding: 0px 15px;
+}
+.shortcutPlaylist ul{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.shortcutPlaylist{
+    height: 300px;
+}

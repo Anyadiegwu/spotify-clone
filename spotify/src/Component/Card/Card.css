@@ -1,0 +1,39 @@
+.card{
+    width: 250px;
+    height: 220px;
+    border-radius: 1.5em;
+    background-color: white;
+    margin-left: 60px;
+}
+.card div{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.card img{
+    width: 220px;
+    height: 140px;
+    margin-top: 10px;
+    border-radius: 1.5em;
+}
+.cardWrite{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+.cardWrite div{
+    display: block;
+    margin: -24px 80px 0px 20px;
+    padding-bottom: 5px;
+}
+.cardWrite div p:nth-of-type(1){
+    font-weight: 500;
+    font-size: 12px;
+}
+.cardWrite div p:nth-of-type(2){
+    margin: -16px 0px 0px 0px;
+    font-size: 12px;
+    font-weight: 500;
+    color: grey;
+}

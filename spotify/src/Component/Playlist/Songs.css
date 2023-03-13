@@ -1,0 +1,119 @@
+.playlist .playlistHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -20px;
+}
+.playlist .playlistHeader a{
+    text-decoration: none;
+    color: #474646;
+}
+.playlist .playlistHandle .playlistH-Header{
+    display: flex;
+    width: 100%;
+    margin-top: -30px;
+    color: #848484;
+    align-items: center;
+    justify-content: space-between;
+}
+.playlist .playlistHandle .playlistH-Header .title{
+    display: flex;
+    width: 97%;
+    align-items: center;
+    justify-content: space-between;
+}
+.playlist .playlistHandle .playlistH-Header .title .artist{
+    display: flex;
+    width: 60%;
+    min-width: 60%;
+    align-items: center;
+    justify-content: space-between;
+}
+.playlist .playlistHandle .playlistH-Header .title .artist .time{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-between;
+}
+.playlist .playlistHandle .playlistH-Header .title .artist .time .album{
+    display: flex;
+    width: 74%;
+    align-items: center;
+    justify-content: space-between;
+}
+#playlistHandle{
+    margin: -10px 0px 0px -10px;
+    height: 130px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: relative;
+    
+}
+#playlistH-Header{
+    margin: 2px 0px 2px 5px;
+    height: 40px;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+#playlistH-Header:hover,
+#playlistH-Header .active{
+    padding: 0.15em 0px 0.15em 0.3em;
+    border-radius: 0.5em;
+    background-color: white;
+    color: black;
+}
+#playlistH-Header .index{
+    margin-right: 5px;
+}
+@media screen and (max-width: 550px) {
+    .playlist{
+        width: 72%;
+        min-width: 72%;
+    }
+    .playlist .playlistHandle{
+        width: 100%;
+        min-width: 100%; 
+        margin-bottom: -20px;
+        font-size: 0.7em;
+    }
+    .playlist .playlistHandle #playlistH-Header{
+        margin-bottom: -15px;
+        width: 100%;
+        min-width: 100%; 
+    }
+    #playlistHandle{
+    margin: -10px 0px 0px -10px;
+    height: 70px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: relative;
+}
+#playlistH-Header{
+   font-size: 0.5em;
+   height: 3em;
+   margin: 6em 0em 7em 1em;
+}
+#playlistH-Header:nth-child(1){
+    margin-top: 0em;
+}
+#playlistH-Header:hover,
+#playlistH-Header .active{
+    padding: 0em;
+}
+#headerTag{
+    margin: 1em 0em 0.5em -0.5em;
+}
+.playlist .playlistHandle .playlistH-Header .title .artist .time{
+    width: 50%;
+    min-width: 60%;
+}
+/* .playlist .playlistHandle .playlistH-Header #title{
+    width: 90%;
+
+} */
+.playlist .playlistHandle .playlistH-Header .title .artist{
+    width: 60%;
+    min-width: 60%;
+}
+
+}
