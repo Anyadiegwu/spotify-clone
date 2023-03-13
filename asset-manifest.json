@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/spotify-clone/static/css/main.92758a99.css",
+    "main.js": "/spotify-clone/static/js/main.e26e47b3.js",
+    "static/js/787.a19c38e9.chunk.js": "/spotify-clone/static/js/787.a19c38e9.chunk.js",
+    "static/media/drake.jpg": "/spotify-clone/static/media/drake.6cda7d54b8caa4f9c916.jpg",
+    "static/media/image.avif": "/spotify-clone/static/media/image.2baac059421d01f10c61.avif",
+    "static/media/eilish.jpg": "/spotify-clone/static/media/eilish.9de7b53670f741466dd2.jpg",
+    "static/media/images.jpeg": "/spotify-clone/static/media/images.7c4ad5716d5c4c653c8c.jpeg",
+    "index.html": "/spotify-clone/index.html",
+    "main.92758a99.css.map": "/spotify-clone/static/css/main.92758a99.css.map",
+    "main.e26e47b3.js.map": "/spotify-clone/static/js/main.e26e47b3.js.map",
+    "787.a19c38e9.chunk.js.map": "/spotify-clone/static/js/787.a19c38e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92758a99.css",
+    "static/js/main.e26e47b3.js"
+  ]
+}
