@@ -29,7 +29,8 @@ return(
                 <ul>
                         {MainMenu.map((menu) => (
                                 <li key={menu.id}>
-                                    <div>
+
+                                    <div className="menuIcon">
                                         <i>{menu.icon}</i>
                                         <span>{menu.name}</span>
                                     </div>

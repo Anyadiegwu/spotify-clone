@@ -154,6 +154,10 @@
     border: 1px solid black;
 }
 @media screen and (max-width: 550px) {
+    .audioContainer{
+        width: 65vw;
+        height: 65vh;
+    }
     .audio .audioTop #audioTop i{
         border-radius: 0.4em;
         width: 1.5em;

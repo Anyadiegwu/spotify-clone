@@ -51,7 +51,7 @@ return(
                     {Artist.map((list) =>(
                         <li key={list?.id}>
                             <div className="fav">
-                            <div>
+                            <div className="a">
                                 <div>
                                 <img src={list?.image} alt=""/>
                                 </div>

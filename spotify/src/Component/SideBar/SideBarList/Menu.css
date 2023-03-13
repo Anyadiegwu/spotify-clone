@@ -8,14 +8,14 @@
     list-style: none;
     position: relative;
 }
-.listContainer ul li a{
+.listContainer ul li .menuIcon{
     display: flex;
     align-items: center;
     line-height: 30px;
     text-decoration: none;
     color: black;
 }
-.listContainer ul li a i{
+.listContainer ul li .menuIcon i{
     margin: 0px 15px 0px 10px;
     font-size: 20px;
 }
@@ -24,8 +24,8 @@
     color: rgb(203, 201, 201);
     margin: -10px 0px -10px 15px;
 }
-.listContainer ul li:hover a,
-.listContainer ul li.active a{
+.listContainer ul li:hover .menuIcon,
+.listContainer ul li.active .menuIcon{
     color: white;
     background-color: black;
     border-radius: 0.6em;
@@ -54,7 +54,7 @@
     overflow-y: scroll;
 }
 @media  screen and (max-width: 550px) {
-    .menuContainer .listContainer ul li  a span{
+    .menuContainer .listContainer ul li  .menuIcon span{
         display: none;
     }
     .menuContainer  p{
