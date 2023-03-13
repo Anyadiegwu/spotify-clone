@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import './AudioPlayer.css'
 import { CiHeart } from 'react-icons/ci'
 import { BsArrowsAngleExpand, BsMusicNoteBeamed } from 'react-icons/bs'

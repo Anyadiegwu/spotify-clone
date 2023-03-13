@@ -84,7 +84,7 @@ return(
         <div className="playlist">
                 <div className="playlistHeader">
                     <h2>My Playlist</h2>
-                    <a href="#">Show All</a>
+                    <p>Show All</p>
                 </div>
                 <div className="playlistHandle" id="headerTag">
                     <div className="playlistH-Header">

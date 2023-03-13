@@ -29,10 +29,10 @@ return(
                 <ul>
                         {MainMenu.map((menu) => (
                                 <li key={menu.id}>
-                                    <a href="#">
+                                    <div>
                                         <i>{menu.icon}</i>
                                         <span>{menu.name}</span>
-                                    </a>
+                                    </div>
                                 </li>
                             ))}
 

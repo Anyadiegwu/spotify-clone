@@ -18,10 +18,8 @@ return(
                 <p>What's hot<i><AiFillFire /></i></p>
                 <div className="trendLink"> 
                     <h2>Trending</h2>
-                        <a href="#">
                             <p>More</p>
                             <i><RiArrowRightSLine /></i>
-                        </a>
                 </div>
                 <div className="carousel">
                     <img src={images} alt="" />
